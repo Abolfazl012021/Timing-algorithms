@@ -7,11 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text" id="CBT-id" placeholder="Values Like : 8 5 3 6" >
-    <input type="text" id="AT-id" placeholder="AT Like : 0 1 2 3">
+    <input type="text" id="CBT-id" placeholder="Values Like : 8 5 3 6" value="9 5 3 6">
+    <input type="text" id="AT-id" placeholder="AT Like : 0 1 2 3" value="0 1 2 3">
     <select id="Type-id">
+        <option value="srt">srt</option>
         <option value="sjf">sjf</option>
         <option value="fifo">fifo</option>
+        <option value="rr">RR</option>
     </select>
     <button onclick="Calculate()">Click</button>
     <h2 id="lbl1">Average Time For Run : </h2>
